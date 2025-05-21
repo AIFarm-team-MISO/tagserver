@@ -1,8 +1,9 @@
-import './style.css'
-import App from './App.svelte'
+console.log("✅ main.js loaded");
+
+import App from './App.svelte';
 
 const app = new App({
   target: document.getElementById('app')
-})
+});
 
-export default app
+export default app;
